@@ -27,8 +27,9 @@ The evaluation scores on the test set are as follows:
 | Duration  |     67.86 |  52.78 |    59.37 |
 | total     |     82.31 |  80.79 |    81.54 |
 
-![NER example](data/demo.png)
-
+### NER Demonstration
+<kbd><img src="./data/demo.png" alt="NER example demo" width="600"/></kbd>
+                                                              
 ## Setup and Usage
 
 For a quick test, run `python3 example.py` to run the NER model pipeline.
