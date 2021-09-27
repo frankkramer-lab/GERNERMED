@@ -36,13 +36,17 @@ For a quick test, run `python3 example.py` to run the NER model pipeline.
 
 The package NER pipeline is available in `/data/de_GERNERMED-1.0.0.tar.gz` and can be installed by:  
 ```bash
+# From local fs
 python3 -m pip install ./data/de_GERNERMED-1.0.0.tar.gz
+
+# From GitHub
+python3 -m pip install https://github.com/frankkramer-lab/GERNERMED/blob/main/data/de_GERNERMED-1.0.0.tar.gz?raw=true
 ```  
 The pipeline can be used in Python:  
 ```python
 import spacy
 
-nlp = spacy.load("GERNERMED")
+nlp = spacy.load("de_GERNERMED")
 doc = nlp("Dem Patienten wurde die Einnahme von Paracetamol (500 mg, zwei Tabletten täglich, 8 Wochen lang) zur Behandlung empfohlen.")
 
 # Show entities
