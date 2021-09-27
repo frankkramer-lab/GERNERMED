@@ -56,4 +56,15 @@ The custom German dataset is stored in `/data/GERNERMED_dataset.json`.
 
 ## Citation
 
-Please cite the following ArXiv paper:
+Please cite the following ArXiv paper from http://arxiv.org/abs/2109.12104
+
+```
+@misc{frei2021gernermed,
+      title={GERNERMED -- An Open German Medical NER Model}, 
+      author={Johann Frei and Frank Kramer},
+      year={2021},
+      eprint={2109.12104},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
