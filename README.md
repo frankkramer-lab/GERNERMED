@@ -3,7 +3,8 @@
 **Note:** The project repository will be updated upon acceptance.
 
 ## About
-The is the project repository for GERNERMED. GERNERMED is the first open neural NER model for medical entities designed for German data.
+The is the project repository for **GERNERMED**, a named entity recognition (NER) model in the context of German medical natural language processing (NLP).  
+In particular, **GERNERMED** is the first open neural NER model for medical entities designed for German data.
 
 The following entities are supported:
 - Drug
